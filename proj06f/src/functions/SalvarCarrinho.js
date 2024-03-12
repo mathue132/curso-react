@@ -7,4 +7,3 @@ export default function SalvarCarrinho(codigo) {
     const carrinho = JSON.stringify(lista)
     localStorage.setItem("carrinho", carrinho)
 }
-//paramos aqui, explicar
